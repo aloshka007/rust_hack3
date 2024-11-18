@@ -1,6 +1,6 @@
 fn gray(n: u8) -> Vec<String> {
     let mut result = Vec::new();
-    let limit = 1 << n; // Це 2^n
+    let limit = 1 << n;
 
     for i in 0..limit {
      
